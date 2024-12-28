@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Prijava</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Marko+One&family=Quicksand&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark d-flex justify-content-between  sticky-top" style="background-color:#105F8B; width:100%;">
+  
+  
+    <a href="#">
+      <img src="https://cdn2.steamgriddb.com/file/sgdb-cdn/icon/5cc33dfe7e069a757ca0fcbe6b95c89e/32/256x256.png" style="width:50px; height:auto; filter:saturate(0%) brightness(230%);" />
+    </a>
+    <div style="border-bottom: 5px solid transparent; border-top: 5px solid transparent; display: block; padding: 0.5rem 1rem; font-family: 'Marko One', serif; ">
+      GoW: <br>RAGNAROK
+    </div>
+    
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse " id="collapsibleNavbar" >
+      
+      <ul class="navbar-nav d-flex justify-content-between">
+        <div class="d-flex justify-content-between navGrp1" >
+        <li class="nav-item" style="border-bottom: 5px solid transparent; border-top: 5px solid transparent; display: block; padding: 0.5rem 1rem; ">
+          
+        </li>
+        <li class="nav-item" >
+          <a class="nav-link tekst" href="index.html" >POČETNA</a>
+        </li>
+        <li class="nav-item" >
+          <a class="nav-link tekst" href="trgovina1.html">TRGOVINA</a>
+        </li>
+        <li class="nav-item">
+          <li class="nav-item dropdown">
+            <a id="trenutna" class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              ZAJEDNICA<i class="fa fa-chevron-down" aria-hidden="true" style="padding-left: 3px;"></i>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="forum.html">FORUM</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="rezultatiNatjecanja.html">REZULTATI NATJECANJA</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="recenzije.html">RECENZIJE</a>
+            </div>
+          </li>
+        </li>
+      </div>
+      <div class="d-flex justify-content-between navGrp2">
+        <li class="nav-item">
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fa fa-user-circle fa-lg" aria-hidden="true" style="padding-right: 3px;"></i>RAČUN<i class="fa fa-chevron-down" aria-hidden="true" style="padding-left: 3px;"></i>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="registracija.html">REGISTRACIJA</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="prijava.html">PRIJAVA</a>
+              
+            </div>
+          </li>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="kupiIgru.html">
+              <button type="button" class="btn btn-primary" style="border-radius: 24px;      		padding-left:30px; padding-right:30px;" >KUPI IGRU</button>
+          </a>
+        </li>
+        <li class="nav-item">
+          
+                  <a href="kupiPredmet.html"><i class="fa fa-shopping-cart fa-lg"  aria-hidden="true" style="padding: 8px; text-align: center; display: inline; border-radius: 50%;"></i></a>
+          
+              
+          
+        </li>
+      </div>
+      </ul>
+      
+    </div>
+   
+  
+    
+  </nav>
+
+<h4 style="text-align: center; padding-block: 25px;">Diskusijske kategorije</h4>
+
+<div class="col-sm-8 forumOkvir" style="background-color: #105F8B; margin:auto; padding:0; margin-block:25px; border:2px solid white; border-radius: 15px;">
+  <a href="novosti.html">
+    <div class="row">
+      <div class="col-sm-3 forumIkona" style="margin:auto; text-align: center;">
+        <i class="fa fa-newspaper-o fa-5x" aria-hidden="true"></i>
+      </div>
+      <div class="col-sm-9 forumTekst" style="text-align: center; border-left: solid white 2px;">
+          <h5 style="padding-top:15px;padding-bottom: 40px;">
+            Novosti
+          </h5>
+          <p style="padding-bottom: 40px;">Iznesi svoje mišljenje o novostima! Važna su nam vaša mišljenja kako bi znali idemo li u pravom smjeru s novim sadržajem.</p>
+      </div>
+    </div>
+  </a>
+</div>
+<div class="col-sm-8 forumOkvir" style="background-color: #105F8B; margin:auto; padding:0; margin-block:25px; border:2px solid white; border-radius: 15px;">
+  <a href="novosti.html">
+    <div class="row">
+      <div class="col-sm-3 forumIkona" style="margin:auto; text-align: center;">
+        <i class="fa fa-users fa-5x" aria-hidden="true"></i>
+      </div>
+      <div class="col-sm-9 forumTekst" style="text-align: center; border-left: solid white 2px;">
+          <h5 style="padding-top:15px;padding-bottom: 40px;">
+            Udruženja
+          </h5>
+          <p style="padding-bottom: 40px;">Priduži se nekoj od sjajnih ekipa! Vjerujemo da postoji grupa za svakoga, a pogotova za prekaljene God Of War gamere :D.</p>
+      </div>
+    </div>
+  </a>
+</div>
+<div class="col-sm-8 forumOkvir" style="background-color: #105F8B; margin:auto; padding:0; margin-block:25px; border:2px solid white; border-radius: 15px;">
+  <a href="novosti.html">
+    <div class="row">
+      <div class="col-sm-3 forumIkona" style="margin:auto; text-align: center;">
+        <i class="fa fa-handshake-o fa-5x" aria-hidden="true"></i>
+      </div>
+      <div class="col-sm-9 forumTekst" style="text-align: center; border-left: solid white 2px;">
+          <h5 style="padding-top:15px;padding-bottom: 40px;">
+            Pitaj proizvođaća
+          </h5>
+          <p style="padding-bottom: 40px;">Imaš pitanje za nekoga iz našeg tima? Slobodno pitaj! Naši zaposlenici vole komunicirati s igračima i dijeliti savjete.</p>
+      </div>
+    </div>
+  </a>
+</div>
+<div class="col-sm-8 forumOkvir" style="background-color: #105F8B; margin:auto; padding:0; margin-block:25px; border:2px solid white; border-radius: 15px;">
+  <a href="novosti.html">
+    <div class="row">
+      <div class="col-sm-3 forumIkona" style="margin:auto; text-align: center;">
+        <i class="fa fa fa-bug fa-5x" aria-hidden="true"></i>
+      </div>
+      <div class="col-sm-9 forumTekst" style="text-align: center; border-left: solid white 2px;">
+          <h5 style="padding-top:15px;padding-bottom: 40px;">
+            Kvarovi
+          </h5>
+          <p style="padding-bottom: 40px;">Pronašao si kvar u igri koji te nervira? Bez brige, samo prijavi kvar i naš tim će ga otkloniti što prije je to moguće!</p>
+      </div>
+    </div>
+  </a>
+</div>
+<div class="jumbotron" style="margin-bottom:0; background-color:#105F8B;">
+  <div class="container row" style="margin:0 auto;">
+  <div class="col-sm-12" style="text-align:center;">
+  <img src="https://cdn2.steamgriddb.com/file/sgdb-cdn/icon/5cc33dfe7e069a757ca0fcbe6b95c89e/32/256x256.png" style="width:75px; height:auto; filter:saturate(0%) brightness(230%); margin-top:40px" />
+      <h3 style="margin:15px;">God of War: Ragnarok</h3>
+      <nav style="margin:15px;">
+      	<a href="/carrers/">CARRERS</a> |
+		<a href="/support/">SUPPORT</a> |
+		<a href="/contactus/">CONTACT US</a> |
+		<a href="/press/">PRESS</a> |
+        <a href="/api/">API</a>
+      </nav>
+      <p>2023, Sony Interactive Entertainment, Inc. All rights reserved.</p>
+    </div>
+    
+    </div>
+</div>
+
+</body>
+</html>
